@@ -30,3 +30,20 @@ justify-content: center;
   border-radius: 8px; /* rounds the corners */
   z-index: 11; /* makes the start menu appear on top of everything else */
 }
+.starticons img{
+  display: block;
+  margin: 0 auto;
+  margin-top: 12px;
+  width:30px;
+}
+
+.starticons{
+  width: 100px;
+  font-size: 13px;
+}
+
+.starticons:hover{
+  background: white;
+  width: 100px;
+  border-radius: 5px;
+}
