@@ -47,3 +47,10 @@ justify-content: center;
   width: 100px;
   border-radius: 5px;
 }
+.startrow{
+  display: flex;
+  justify-content: center;
+  margin-left: 15px;
+  width: 595px;
+  max-width: 595px;
+}
