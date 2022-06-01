@@ -28,6 +28,7 @@ justify-content: center;
   transition: all .25s cubic-bezier(.62,0,.32,1); /* changes the start menu animation */
   border-radius: 8px; /* rounds the corners */
   z-index: 11; /* makes the start menu appear on top of everything else */
+  transition: all .2s cubic-bezier(.79,.14,.15,.86);
 }
 
 .sTop{

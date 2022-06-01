@@ -9,3 +9,8 @@ startbutton.addEventListener("click", ()=>{
         startmenu.style.bottom = "55px"
     }
 })
+window.addEventListener("mouseup", function(e){
+    if (!event.target.closest(".startbutton") && !event.target.closest(".startmenu")){
+        startmenu.style.bottom = "-95%"
+    }
+})
