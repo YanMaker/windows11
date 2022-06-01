@@ -22,7 +22,7 @@ justify-content: center;
   position: absolute;
   backdrop-filter: blur(20px); /* gives the start menu a blur */
   background-color: rgba(255,255,255,.80); /* gives the start menu color */
-  bottom: 50px; /* positions the start menu */
+  bottom: -95%; /* positions the start menu */
   height: 650px;
   width: 625px;
   transition: all .25s cubic-bezier(.62,0,.32,1); /* changes the start menu animation */
