@@ -107,3 +107,31 @@ justify-content: center;
   height: 25px;
   text-align: center;
 }
+
+.searchmenu{
+  position: absolute;
+  backdrop-filter: blur(20px);
+  background-color: rgba(255,255,255,.80);
+  height: 90%;
+  width: 652 px;
+  transition: all .2s cubic-bezier(.79,.14,.15,.86);
+  border-radius: 8px;
+  z-index: 11000;
+}
+
+.searchbar{
+  margin: 25px 20px 0px  20px;
+  height: 38px;
+  width: 580px;
+  background-color: white;
+  border-radius: 5px;
+  border: 2px solid lightgray;
+  border-bottom: 2px solid #0067c0;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.searchbar img{
+
+}
