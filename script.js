@@ -14,3 +14,20 @@ window.addEventListener("mouseup", function(e){
         startmenu.style.bottom = "-95%"
     }
 })
+let searchbutton = document.getElementsByClassName("searchbutton")[0]
+let searchmenu = document.getElementsByClassName("searchmenu")[0]
+
+searchbutton.addEventListener("click", () => {
+
+    if (searchmenu.style.bottom == "55px") {
+        searchmenu.style.bottom = "-95%"
+    }
+    else {
+        searchmenu.style.bottom = "55px"
+    }
+})
+window.addEventListener("mouseup", function (e) {
+    if (!event.target.closest(".searchbutton") && !event.target.closest(".searchmenu")) {
+        searchmenu.style.bottom = "-95%"
+    }
+})
