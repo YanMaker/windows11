@@ -133,5 +133,14 @@ justify-content: center;
 }
 
 .searchbar img{
-  
+  width: 23px;
+  margin: 0px 15px;
+}
+
+.searchbar input{
+  outline: 0;
+  border: 0;
+  height: 100%;
+  width: 100%;
+  font-size: 15px;
 }
