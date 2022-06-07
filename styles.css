@@ -178,3 +178,15 @@ justify-content: center;
   margin: 0 auto;
   width: 30px;
 }
+
+.quicksearches{
+  margin: 15px;
+  width: 580px;
+}
+
+.quicksearch{
+  padding: 15px 0px;
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+}
