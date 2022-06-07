@@ -144,3 +144,37 @@ justify-content: center;
   width: 100%;
   font-size: 15px;
 }
+
+.searchheader{
+  font-weight: 600;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+.searchtopapps{
+  margin: 0 20px;
+  display: flex;
+}
+
+.searchtopappslabel{
+  margin: 0px;
+  margin-top: 5px;
+}
+
+.searchtopapp{
+  font-size: 13px;
+  background: white;
+  border: solid 1px lightgray;
+  width: 100px;
+  margin-right: 5px;
+  margin-top: 12px;
+  padding: 18px 10px;
+  border-radius: 5px;
+}
+
+.searchtopapp img{
+  display: block;
+  margin: 0 auto;
+  width: 30px;
+}
