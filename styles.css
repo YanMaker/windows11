@@ -12,10 +12,6 @@ body{
   font-family: 'Segoe UI Variable', sans-serif;
   user-select: none;
 }
-
-.darkmodebutton tr:hover{
-  background-image: url("img/windows11dark.jpg");
-}
   
 .center{
 display: flex;
