@@ -180,6 +180,12 @@ justify-content: center;
   width: 30px;
 }
 
+.searchtopapp:hover{
+  background: white;
+  width: 100px;
+  border-radius: 5px;
+}
+
 .quicksearches{
   margin: 15px;
   width: 580px;
